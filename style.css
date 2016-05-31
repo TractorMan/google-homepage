@@ -1,0 +1,171 @@
+body{
+
+
+font-family: Roboto, sans-serif;
+}
+
+
+#menu{
+	position: relative;
+	float: right;
+	right: 49px;
+	list-style: none;
+	top: -19px;
+	
+}
+
+
+
+
+li{
+	display: inline;
+	padding-left: 7px;
+	color: gray;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+	
+	
+}
+
+#options{
+	height: 30px;
+	width: 30px;
+	
+	border-radius: 30px;
+	
+	
+}
+#bell, #options{
+	position: relative;
+	top:10px;
+	opacity: 0.5;
+
+}
+
+#squares{
+	position: relative;
+	opacity: 0.5;
+	top: 5px;
+	
+}
+
+
+
+#main{
+	position: relative;
+	width: 100px;
+	left: 450px;
+	top: 200px;
+	
+	
+}
+
+#logo{
+	position: relative;
+	height: 100px;
+	width: 300px;
+	
+}
+
+#uk{
+	color: blue;
+	position: relative;
+	left: 240px;
+	bottom: 24px;
+}
+
+
+#form{
+	
+	position: absolute;
+	top: 130px;
+	left: -130px;
+
+	
+}
+
+
+.sbox-div{	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DEDEDE;
+	width: 600px;
+	height: 40px;
+}
+
+#box{
+	
+
+
+
+}
+
+input[type="text"]{
+	font-size: 18px;
+	font-family: Roboto, sans-serif;
+	border: none;
+	height: 38px;
+	width: 599px;
+	background-image: url("mic.png");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	
+	
+	
+}
+
+
+
+#buttons{
+	position: relative;
+	bottom: -30px;
+	left: 150px;
+	
+	
+}
+
+input[type="button"]{
+	border-style: none;
+	height: 40px;
+	width: 144px;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	background-color: #F0F0F0;
+	
+}
+
+
+
+#bottom{
+	position: relative;
+	bottom: -510px;
+	background-color: #F0F0F0;
+	border: 1px;
+	border-top-style:solid;
+	border-color: 	#D4D4D4;
+	height: 40px;
+	width:100%;
+}
+
+#b-right{
+	position: relative;
+	float: right;
+	
+	left: -10px;
+
+}
+
+#b-left{
+	position: absolute;
+	float: left;
+	
+}
+
+.b-list{
+	margin-right: 10px;
+}
